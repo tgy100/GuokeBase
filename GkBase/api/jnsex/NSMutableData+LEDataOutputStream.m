@@ -136,7 +136,7 @@
 
 
 -(void)writeObject:(NSObject*)n{
-	if(n==NULL){
+	if(n==NULL || [n isKindOfClass:[NSNull class]]){
 		[self writeByte:0];
 		return;
 	}
