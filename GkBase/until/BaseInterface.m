@@ -37,8 +37,8 @@
 -(void) comm_call:(int)tag regs:(NSMutableDictionary *)umap comm_name:(NSString *)comm_name
         call_down:(SEL)call_down
 {
-    if ([self.delegate respondsToSelector:@selector(beforeCall:)]) {
-        [self.delegate beforeCall:tag];
+    if ([self.delegate respondsToSelector:@selector(beforeTheCall:)]) {
+        [self.delegate beforeTheCall:tag];
     }
     NSLog(@"%@ call", comm_name);
 	JNetItem * it=[JNetItem new];

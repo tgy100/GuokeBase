@@ -20,7 +20,7 @@ typedef double jdouble;
 -(void) onFail:(NSString *)msg tag:(int)tag;
 -(void) onCancel:(int)tag;
 
--(void) beforeCall:(int)tag;
+-(void) beforeTheCall:(int)tag;
 -(void) endTheCall:(int)tag;
 
 @end
