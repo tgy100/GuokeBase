@@ -21,7 +21,7 @@ typedef double jdouble;
 -(void) onCancel:(int)tag;
 
 -(void) beforeCall:(int)tag;
--(void) endCall:(int)tag;
+-(void) endTheCall:(int)tag;
 
 @end
 

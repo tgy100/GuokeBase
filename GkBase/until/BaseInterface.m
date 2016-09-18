@@ -54,8 +54,8 @@
 }
 
 -(void)comm_call_down:(JNetItem*)it{
-    if ([self.delegate respondsToSelector:@selector(endCall:)]) {
-        [self.delegate endCall:it.tag];
+    if ([self.delegate respondsToSelector:@selector(endTheCall:)]) {
+        [self.delegate endTheCall:it.tag];
     }
     
 	if(it.rcode==0){
