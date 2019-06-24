@@ -11,7 +11,6 @@
 #import <Foundation/Foundation.h>
 #import "ContentViewController.h"
 #import "TwoLevelFileBuf.h"
-#import "SVProgressHUD.h"
 
 //▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 //▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
@@ -459,7 +458,6 @@ static UIImageView * g_lbErrLabel;
 
 
 +(void)showNetError{
-    [SVProgressHUD showErrorWithStatus:@"您的网络貌似有问题"];
 //    [Api alert:@"您的网络貌似有问题"];
 }
 

@@ -18,7 +18,7 @@
 	int bufLen;
 	int count;
 	double * latLngs;
-	NSString ** addrss;
+	NSMutableArray<NSString *> *addrss;
 }
 
 -(void)addPos:(NSString*)ad lat:(double)lat lng:(double)lng;
